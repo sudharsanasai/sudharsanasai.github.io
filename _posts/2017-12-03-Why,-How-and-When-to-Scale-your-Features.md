@@ -8,6 +8,8 @@ Most of the times, your dataset will contain features highly varying in magnitud
 
 If left alone, these algorithms only take in the magnitude of features neglecting the units. The results would vary greatly between different units, 5kg and 5000gms. The features with high magnitudes will weigh in a lot more in the distance calculations than features with low magnitudes.
 
+![center-aligned-image]({{ '/images/feature-scaling-sumo.jpeg' | absolute_url }}){: .align-center}
+
 To supress this effect, we need to bring all features to the same level of magnitudes. This can be acheived by scaling.
 
 ### How to Scale Features
