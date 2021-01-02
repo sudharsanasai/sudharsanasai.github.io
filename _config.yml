@@ -24,7 +24,7 @@ url: https://sudharsanasai.github.io # the base hostname & protocol for your sit
 logo: # path of site logo, e.g. "/images/logo.png"
 date_format: "%B %-d, %Y"
 read_time: true # reading time estimates, e.g. true
-words_per_minute: # 200
+words_per_minute: 100
 mathjax:
   enable: true # MathJax equations, e.g. true, false (default)
   combo: "tex-svg" # "tex-svg" (default), "tex-mml-chtml", etc.: docs.mathjax.org/en/latest/web/components/combined.html
@@ -88,6 +88,11 @@ defaults:
     values:
       layout: post
       share: true
+  - scope:
+      path: "images"
+    values:
+      image: true
+
 
 # Site Author
 author:
