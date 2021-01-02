@@ -17,19 +17,33 @@ To supress this effect, we need to bring all features to the same level of magni
 1. **Standardisation:**
     Standardisation replaces the values by their Z scores.
 
-    This redistributes the features with their mean μ = 0 and standard deviation σ =1 . sklearn.preprocessing.scale helps us implementing standardisation in python.
+    $$ x' = \frac{x - \bar{x}}{x} $$
+
+    This redistributes the features with their mean μ = 0 and standard deviation σ =1 . `sklearn.preprocessing.scale` helps us implementing standardisation in python.
+
+
 
 2. **Mean Normalisation:**
-    This distribution will have values between -1 and 1with μ=0.
 
-    Standardisation and Mean Normalization can be used for algorithms that assumes zero centric data like Principal Component Analysis(PCA).
+	\begin{equation} x' = \frac{x - \bar{x}}{max(x) - min(x)} \end{equation}
+
+    This distribution will have values between -1 and 1with μ=0. 
+
+Standardisation and Mean Normalization can be used for algorithms that assumes zero centric data like Principal Component Analysis(PCA).
     
 3. **Min-Max Scaling:**
+
+	$$ x' = \frac{x - \min(x)}{max(x) - min(x)} $$
+
     This scaling brings the value between 0 and 1.
 
 4. **Unit Vector:**
+
+	$$ x' = \frac{x}{||x||} $$
+
     Scaling is done considering the whole feature vecture to be of unit length.
-    Min-Max Scaling and Unit Vector techniques produces values of range [0,1]. When dealing with features with hard boundaries this is quite useful. For example, when dealing with image data, the colors can range from only 0 to 255.
+
+Min-Max Scaling and Unit Vector techniques produces values of range [0,1]. When dealing with features with hard boundaries this is quite useful. For example, when dealing with image data, the colors can range from only 0 to 255.
 
 ### When to Scale
 
