@@ -1,3 +1,14 @@
+---
+title: "Why, How And When To apply Feature Selection"
+categories:
+  - Layout
+tags:
+  - content
+  - image
+  - layout
+last_modified_at: 2018-01-31T14:28:50-05:00
+---
+
 Modern day datasets are very rich in information with data collected from millions of IoT devices and sensors. This makes the data high dimensional and it is quite common to see datasets with hundreds of features and is not unusual to see it go to tens of thousands.
 
 ![center-aligned-image]({{ '/images/feature-selection/feature-selection-iot.jpeg' | absolute_url }}){: .align-center}

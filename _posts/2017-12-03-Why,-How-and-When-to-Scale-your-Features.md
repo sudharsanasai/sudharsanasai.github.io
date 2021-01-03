@@ -1,4 +1,12 @@
-# Why, How and When to Scale your Features
+---
+title: "Why, How and When to Scale your Features"
+categories:
+  - Layout
+tags:
+  - Machine Learning
+  - Feature Engineering
+---
+
 
 Feature scaling can vary your results a lot while using certain algorithms and have a minimal or no effect in others. To understand this, let’s look why features need to be scaled, varieties of scaling methods and when we should scale our features.
 
