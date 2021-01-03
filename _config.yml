@@ -92,6 +92,13 @@ defaults:
       path: "images"
     values:
       image: true
+      # Recipe defaults
+  - scope:
+      path: "_resume"
+      type: resume
+    values:
+      layout: post
+      share: true
 
 
 # Site Author
