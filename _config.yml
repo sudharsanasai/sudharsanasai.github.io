@@ -18,7 +18,7 @@ remote_theme: mmistakes/so-simple-theme@3.2.0
 skin: "/assets/css/skins/default.css"
 locale: en-US
 title: "Sudharsan Asaithambi"
-description: "Sudharsan's Blog"
+description: "MS Data Science, New York University | Open for Summer Internship 2021"
 baseurl: # the subpath of your site, e.g. "/blog"
 url: https://sudharsanasai.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 logo: # path of site logo, e.g. "/images/logo.png"
@@ -95,18 +95,36 @@ defaults:
 
 
 # Site Author
-author:
-  name:
-  picture:
-  email:
-  twitter:
+author: 
+  name: Sudharsan Asaithambi
+  picture: /images/head-shot.png
+  email: sudharsan.asaithambi@nyu.edu
+  twitter: sudharsanasai
   links:
-    - title:
-      url:
-      icon:
+    - title: Twitter
+      url: https://twitter.com/sudharsanasai
+      icon: fab fa-twitter-square
+
+    - title: Github
+      url: https://github.com/sudharsanasai
+      icon: fab fa-github-square
+
+    - title: LinkedIn
+      url: https://www.linkedin.com/in/sudharsan-asaithambi/
+      icon: fab fa-linkedin
+
 
 # Footer Links
 footer_links:
+  - title: Twitter
+    url: https://twitter.com/sudharsanasai
+    icon: fab fa-twitter-square
+  - title: LinkedIn
+    url: https://www.linkedin.com/in/sudharsan-asaithambi/
+    icon: fab fa-linkedin
+  - title: GitHub
+    url: https://github.com/sudharsanasai
+    icon: fab fa-github-square
   - title: Feed
     url: atom.xml
     icon: fas fa-rss-square
